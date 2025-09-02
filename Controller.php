@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $val = $_POST['validade'];
     $preco = $_POST['preco'];
 
-    $cadastro = Cadastrar::cadastra($cod, $prod, $val, $preco);
+    Cadastrar::cadastra($cod, $prod, $val, $preco);
 
     echo "<script> alert('Produto cadastrado com sucesso!!') </script>";
 
