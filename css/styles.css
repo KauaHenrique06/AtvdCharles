@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e9e8e8;
+}
+
+form{
+    font-family: 'Josefin Sans';
+    border-radius: 15px;
+    display: block;
+    margin: 0;
+    text-align: center;
+    border: solid 2px rgb(227, 227, 227);
+    width: 20%;
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+}
+
+.button-main{
+    outline: none;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    cursor: pointer;
+    width: 40%;
+    height: 4%;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(3, 216, 3);
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+}
+
+.button-main:hover{
+    background-color: white;
+    border: 2px, solid, rgb(3, 216, 3);
+    color: rgb(3, 216, 3);
+}
+a.btn-Ca{
+    outline: none;
+    margin-right: 4%;
+    cursor: pointer;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5%;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(3, 216, 3);
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    display: inline-flex;
+    text-decoration: none;
+}
+
+a.btn-Ca:hover{
+    background-color: rgb(2, 174, 2);
+}
+
+a.btn-Co{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    cursor: pointer;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 5%;
+    border: 2px solid rgb(3, 216, 3);
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(3, 216, 3);
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    display: inline-flex;
+    text-decoration: none;
+}
+
+a.btn-Co:hover{
+    background-color: rgb(3, 216, 3);
+    color: white;
+}
+
+input{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 52%;
+    height: 4%;
+    outline: none;
+    border: 1px, solid rgb(227, 227, 227);
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+input:hover{
+    border: 2px, solid, rgb(3, 216, 3);
+}
