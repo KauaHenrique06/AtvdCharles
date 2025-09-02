@@ -16,12 +16,24 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == "GET") {
-    $cod = $_GET['codigo'];
+    $cod = $_GET['codigo'] ?? null;
 
-    $consulta = Consultar::consulta($cod);
+    $consulta = null;
+    $erro = null;
+
+    if ($cod) {
+        $resultado = Consultar::consulta($cod);
+
+        if (!empty($resultado)) {
+            $consulta = $resultado[0];
+        } else {
+            $erro = "Produto não encontrado.";
+        }
+    } else {
+        $erro = "Código inválido.";
+    }
 
     include 'ViewConsulta.php';
-
 }
 
 ?>

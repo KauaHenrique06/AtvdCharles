@@ -12,6 +12,19 @@ h2{
     font-weight: lighter;
     margin-top: 2px;
     margin-bottom: 30px;
+    display: block;
+}
+
+.res-consulta{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-family: 'Josefin Sans';
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    width: 100%;     
+    max-width: 300px;
 }
 
 label{
@@ -33,11 +46,11 @@ body{
 form{
     font-family: 'Josefin Sans';
     border-radius: 15px;
-    display: block;
-    margin: 0;
+    display: inline-block;
+    margin: 0 auto 20;
     text-align: center;
     border: solid 2px rgb(227, 227, 227);
-    width: 20%;
+    width: 100%;
     box-shadow: 5px 5px 15px 5px rgb(0, 0, 0, 0.3);
     background-color: #f9f9f9;
 }
